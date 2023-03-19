@@ -8,7 +8,7 @@ from score import Score
 
 def run():
     pygame.init()
-    icon = pygame.image.load('python_game\image\icon.png')
+    icon = pygame.image.load('GalaxyShooter\GalaxyShooter\image\icon.png')
     pygame.display.set_icon(icon)
     screen = pygame.display.set_mode(( 600, 750 ))
     pygame.display.set_caption("Stars Shooter")

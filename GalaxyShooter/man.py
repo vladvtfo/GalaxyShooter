@@ -5,7 +5,7 @@ class Man():
     def __init__(self, screen):
         #инициализация объекта
         self.screen = screen
-        self.image = pygame.image.load('python_game/image/cosmo_ship2.png')
+        self.image = pygame.image.load('GalaxyShooter/GalaxyShooter/image/cosmo_ship2.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         # стартовая позиция объекта
